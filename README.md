@@ -1,0 +1,41 @@
+## Tree View
+
+```
+pei-de-task/
+├── assets/
+│   └── style.css
+├── data/
+│   ├── aggregated/
+│   │   └── profit_info.parquet/
+│   ├── enriched/
+│   │   ├── customers.parquet/
+│   │   ├── order_fact.parquet/
+│   │   ├── orders.parquet/
+│   │   └── products.parquet/
+│   ├── files/
+│   │   ├── Customer.xlsx
+│   │   ├── Orders.json
+│   │   └── Products.csv
+│   └── raw/
+│       ├── customers.parquet/
+│       ├── orders.parquet/
+│       └── products.parquet/
+├── pytest.ini
+├── report.html
+├── requirements.txt
+├── src/
+│   ├── Customers.py
+│   ├── Orders.py
+│   ├── Products.py
+│   ├── __init__.py
+│   ├── etl.ipynb
+│   └── utils.py
+└── tests/
+    ├── __init__.py
+    ├── conftest.py
+    ├── test_customers.py
+    ├── test_orders.py
+    ├── test_products.py
+    └── test_utils.py
+
+```
