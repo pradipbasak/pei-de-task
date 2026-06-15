@@ -5,18 +5,18 @@ pei-de-task/
 ├── assets/
 │   └── style.css
 ├── data/
-│   ├── aggregated/
+│   ├── aggregated/ # contains agregated profit table
 │   │   └── profit_info.parquet/
-│   ├── enriched/
+│   ├── enriched/ # contains all the enriched tables
 │   │   ├── customers.parquet/
 │   │   ├── order_fact.parquet/
 │   │   ├── orders.parquet/
 │   │   └── products.parquet/
-│   ├── files/
+│   ├── files/ # these are the source files
 │   │   ├── Customer.xlsx
 │   │   ├── Orders.json
 │   │   └── Products.csv
-│   └── raw/
+│   └── raw/ # contains tabular version of the source files
 │       ├── customers.parquet/
 │       ├── orders.parquet/
 │       └── products.parquet/
@@ -28,7 +28,7 @@ pei-de-task/
 │   ├── Orders.py
 │   ├── Products.py
 │   ├── __init__.py
-│   ├── etl.ipynb
+│   ├── etl.ipynb # main orchestration file
 │   └── utils.py
 └── tests/
     ├── __init__.py
